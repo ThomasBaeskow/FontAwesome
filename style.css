@@ -1,0 +1,53 @@
+
+.nav-item, .media-links {
+    list-style: none;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    
+}
+
+.fa-facebook {
+    color: blue;
+}
+
+
+
+.review {
+text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+text-transform: uppercase;
+
+}
+
+.info p::before {
+    content: "";
+    display: inline-block;
+    background: url(./facebook-brands.svg);
+    width: 20px;
+    height: 20px;
+    color: blue;
+    
+}
+footer {
+    text-align: center;
+}
+
+h4::after {
+    content: "";
+    display: inline-block;
+    background: url(./facebook-brands.svg);
+    width: 20px;
+    height: 20px;
+    color: blue;
+}
+
+h3::after {
+    font-family: "Font Awesome 5 Free"; 
+    content: "\f007";
+}
+h4::after {
+    font-family: "FontAwesome";
+    content: "\f39f";
+}
